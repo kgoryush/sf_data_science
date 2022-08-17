@@ -37,7 +37,7 @@ def score_game(random_predict) -> int:
     
     score = int(np.mean(count_ls)) # find average number of attempts
 
-    print(f"Your algorithm guesses the number in average in: {score} sttempts")
+    print(f"Your algorithm guesses the number in average in: {score} attempts")
     return(score)
 
 # RUN
